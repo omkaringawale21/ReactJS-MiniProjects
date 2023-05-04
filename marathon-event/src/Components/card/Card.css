@@ -1,0 +1,56 @@
+table{
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+table thead tr th{
+    font-size: 1.5rem;
+    border: 0.2rem solid #ffffff;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    color: #ffffff;
+    background: #032564;
+}
+
+table tbody tr td{
+    font-size: 1.5rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+table tbody tr td .fa-close{
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #ffffff;
+    background: #f70505;
+    border-radius: 50%;
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 0.5rem 0;
+}
+
+table tbody tr td .fa-close:hover{
+    transition: 0.3s linear;
+    transform: rotate(360deg);
+}
+
+table tbody tr td .fa-edit{
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #ffffff;
+    background: #ff9a03;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 0.5rem 0;
+}
+
+table tbody tr td .fa-edit:hover{
+    transition: 0.3s linear;
+    transform: rotate(360deg);
+}

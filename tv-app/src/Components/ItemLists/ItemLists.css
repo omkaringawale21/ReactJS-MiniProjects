@@ -1,0 +1,77 @@
+.ItemList_Data{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.listItem{
+    text-decoration: none;
+}
+
+.listItem .item_details{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    margin: 1rem 0;
+    width: 26rem;
+    padding: 1rem;
+}
+
+.listItem .item_details:hover{
+    transform: scale(1.03);
+}
+
+.listItem .item_details img{
+    width: 24rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+/* single page */
+
+.pageDetailsSingle{
+    width: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(25%);
+}
+
+.pageDetailsSingle .singlePage{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageDetailsSingle .singlePage img{
+    width: 20rem;
+    height: 25rem;
+}
+
+.pageDetailsSingle .singlePage .singlePage_info{
+    margin: 0 1rem;
+}
+
+.pageDetailsSingle .singlePage .singlePage_info h3{
+    font-size: 2rem;
+}
+
+.pageDetailsSingle .singlePage .singlePage_info p{
+    font-size: 1.5rem;
+}
+
+.pageDetailsSingle .singlePage .singlePage_info a{
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    background: #3c948b;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+.pageDetailsSingle .singlePage .singlePage_info a:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,35 @@
+.form-container .event-inputs .event-container .card{
+    transform: translateX(50%);
+    border: 0.2rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0rem 1rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.form-container .event-inputs .event-container .card .card-body label{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.form-container .event-inputs .event-container .card .card-body input{
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.2);
+}
+
+.form-container .event-inputs .event-container .card .card-body input:focus{
+    border-bottom: 0.2rem solid #032564;
+}
+
+.form-container .event-inputs .event-container .card .card-body button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1.5rem;
+    background: #032564;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.form-container .event-inputs .event-container .card .card-body button:hover{
+    letter-spacing: 0.1rem;
+    transition: 0.3s linear;
+}

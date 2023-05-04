@@ -1,0 +1,91 @@
+.footer{
+    background: #032564;
+    padding: 3rem 0;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container .active-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .container .active-links a{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.footer .container .active-links a i{
+    color: #ff5100;
+}
+
+.footer .container .active-links a:hover{
+    color: #ff5100;
+}
+
+.footer .container .active-links a:hover i{
+    color: #ffffff;
+}
+
+.footer .container .countries{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .container .countries a{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.footer .container .countries a i{
+    color: #ff5100;
+}
+
+.footer .container .countries a:hover{
+    color: #ff5100;
+}
+
+.footer .container .countries a:hover i{
+    color: #ffffff;
+}
+
+.footer .container .social-network{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .container .social-network a{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.footer .container .social-network a i{
+    color: #ff5100;
+}
+
+.footer .container .social-network a:hover{
+    color: #ff5100;
+}
+
+.footer .container .social-network a:hover i{
+    color: #ffffff;
+}
+
+.footer hr{
+    color: #ffffff;
+}
+
+.footer p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,17 @@
+.container .row table th{
+    background: #076dcc;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    border: 0.1rem solid #ffffff;
+    text-align: center;
+}
+
+.container .row table tr td{
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container .row table tr td img{
+    width: 8rem;
+    height: 8rem;
+}

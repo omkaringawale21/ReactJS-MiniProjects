@@ -1,0 +1,50 @@
+.btns-container{
+    margin-top: 3rem;
+}
+
+.btns-container .container .row .btns-dtls{
+    display: flex;
+    flex-direction: column;
+}
+
+.btns-container .container .row .btns-dtls button{
+    color: #141313;
+    border-radius: 0.3rem;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 1rem 0;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
+.btns-container .container .row .btns-dtls button:hover{
+    color: #ffffff;
+    transition: 0.3s linear;
+    background: #1aa807;
+}
+
+.btns-container .container .row .form-container .row .form-dlts{
+    transform: translateX(50%);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+}
+
+.btns-container .container .row .form-container .row .form-dlts form{
+    margin: 1rem 0;
+}
+
+.btns-container .container .row .form-container .row .form-dlts form h3{
+    text-align: center;
+}
+
+.btns-container .container .row .form-container .row .form-dlts form .btns .btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.btns-container .container .row .form-container .row .form-dlts form .btns .btn:hover{
+    color: #ffffff;
+    transition: 0.3s linear;
+    background: #1aa807;
+}

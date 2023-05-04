@@ -1,0 +1,61 @@
+.box{
+    padding: 1rem;
+    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.box .container .box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box .container .box-container .nav-symbol{
+    font-size: 1.5rem;
+}
+
+.box .container .box-container .nav-links a{
+    padding: 0.5rem 0.7rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #141313;
+    border-radius: 0.1rem;
+}
+
+.box .container .box-container .nav-links a:hover{
+    color: #ffffff;
+    transition: 0.3s linear;
+    background: #1aa807;
+}
+
+.box .container .box-container .nav-logo a{
+    text-decoration: none;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    color: #141313;
+}
+
+.box .container .box-container .nav-logo a:hover{
+    color: #ffffff;
+    transition: 0.3s linear;
+    background: #1aa807;
+}
+
+.box .container .box-container .nav-logo button{
+    padding: 0.2rem 0.7rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #141313;
+    border-radius: 0.3rem;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.box .container .box-container .nav-logo button:hover{
+    color: #ffffff;
+    transition: 0.3s linear;
+    background: #1aa807;
+}

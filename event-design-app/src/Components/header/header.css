@@ -1,0 +1,47 @@
+.header{
+    background: #032564;
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.header .container .logo a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.header .container .contents a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
+
+.header .container .contents a:hover{
+    background: #ffffff;
+    color: #032564;
+    border-radius: 0.2rem;
+}
+
+.header .container .logos-symbol a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    background: #0795e7;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.header .container .logos-symbol a:hover{
+    transform: rotate(360deg);
+}

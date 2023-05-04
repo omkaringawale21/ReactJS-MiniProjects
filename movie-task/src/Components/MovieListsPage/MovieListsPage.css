@@ -1,0 +1,73 @@
+.btns-container{
+    margin-top: 3rem;
+}
+
+.btns-container .container .row .btns-dtls{
+    display: flex;
+    flex-direction: column;
+}
+
+.btns-container .container .row .btns-dtls button{
+    color: #141313;
+    border-radius: 0.3rem;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 1rem 0;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
+.btns-container .container .row .btns-dtls button:hover{
+    color: #ffffff;
+    transition: 0.3s linear;
+    background: #1aa807;
+}
+
+.btns-container .container .row .movie-details{
+    margin: 1rem 0;
+}
+
+.btns-container .container .row .movie-details h3{
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.btns-container .container .row .movie-details h3:hover{
+    background: #1aa807;
+    color: #ffffff;
+    transition: 0.3s linear;
+}
+
+.btns-container .container .row .movie-details .btns-box{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.btns-container .container .row .movie-details .btns-box .btn{
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    color: #141313;
+}
+
+.btns-container .container .row .movie-details .btns-box .btn:hover{
+    background: #1aa807;
+    color: #ffffff;
+    transition: 0.3s linear;
+}
+
+.btns-container .container .lists-movies .col-12 .row .movies .card{
+    width: 15rem;
+    height: 32rem;
+}
+
+.btns-container .container .lists-movies .col-12 .row .movies .card .card-body .image img{
+    width: 12rem;
+    height: 18rem;
+}
+
+.btns-container .container .lists-movies .col-12 .row .movies .card .card-body .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

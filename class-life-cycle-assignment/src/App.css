@@ -1,0 +1,8 @@
+.app-container .row .content{
+  text-align: center;
+}
+
+.app-container .row .content .input-field{
+  text-align: left;
+  transform: translate(50%, 0%);
+}

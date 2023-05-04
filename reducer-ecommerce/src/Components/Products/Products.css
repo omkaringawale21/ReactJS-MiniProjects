@@ -1,0 +1,10 @@
+.products-container{
+    margin: 5rem 0;
+}
+
+.products-container h3{
+    font-size: 3.5rem;
+    color: #202020;
+    text-align: center;
+    margin: 2rem 0;
+}

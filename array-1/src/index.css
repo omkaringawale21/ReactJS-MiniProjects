@@ -1,0 +1,87 @@
+html{
+  font-size: 62.5%;
+}
+
+.container{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.heading{
+  font-size: 3rem;
+}
+
+.btn-container .btn{
+  background: #eb9411;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.btn-container .btn:hover{
+  background: #242323;
+}
+
+.card .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .title{
+  font-size: 1.8rem;
+  font-weight: bolder;
+  padding: 0.5rem 0;
+}
+
+.card .title span{
+  font-weight: lighter;
+}
+
+.card .releaseDate{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 0.5rem 0;
+}
+
+.card .releaseDate span{
+  font-weight: lighter;
+}
+
+.card .movieDesc{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 0.5rem 0;
+}
+
+.card .movieDesc span{
+  font-weight: lighter;
+}
+
+.card a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.card a .btn{
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.card a .btn:hover{
+  color: #ffffff;
+  background: #eb9411;
+}
+
+@media (max-width: 768px) {
+  .card .image img{
+    max-width: 100%;
+    max-height: 60%;
+    object-fit: cover;
+  }
+}

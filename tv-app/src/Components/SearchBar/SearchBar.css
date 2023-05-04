@@ -1,0 +1,27 @@
+.searchbar{
+    margin-top: 1rem;
+}
+
+.searchbar .searchbar_form input{
+    width: 100%;
+    padding: 0.8rem 2rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+}
+
+.searchbar .searchbar_form .btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.2rem solid rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    background: #3c948b;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.searchbar .searchbar_form .btn:hover{
+    color: #000000;
+    background: #ffffff;
+}
